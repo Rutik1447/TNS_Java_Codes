@@ -51,7 +51,7 @@ public class Atmaccess {
                     System.out.println("Last transaction: " + lastTransaction);
                     break;
                 case 5:
-                    System.out.println("Thank you for using the ATM. Goodbye!");
+                    System.out.println("Thank you for using the ATM.");
                     System.exit(0);
                 default:
                     System.out.println("Invalid choice. Please try again.");
