@@ -34,22 +34,22 @@ import java.util.Scanner;
 	        System.out.println("Name: " + getName());
 	        System.out.println("Age: " + getAge());
 	    }
+}
+public class getConstructor {
+	public static void main(String[] args) {
+	     Scanner sc = new Scanner(System.in);
+	     System.out.print("Enter ID: ");
+	     int id = sc.nextInt();
+	     sc.nextLine(); 
+	     System.out.print("Enter Name: ");
+	     String name = sc.nextLine();
+	     System.out.print("Enter Age: ");
+	     int age = sc.nextInt();
+	     Person person = new Person(id, name, age);
+	     System.out.println("User_Info");
+	     person.displayInfo();
+	     sc.close();
 	}
-	public class getConstructor {
-	    public static void main(String[] args) {
-	        Scanner sc = new Scanner(System.in);
-	        System.out.print("Enter ID: ");
-	        int id = sc.nextInt();
-	        sc.nextLine(); 
-	        System.out.print("Enter Name: ");
-	        String name = sc.nextLine();
-	        System.out.print("Enter Age: ");
-	        int age = sc.nextInt();
-	        Person person = new Person(id, name, age);
-	        System.out.println("User_Info");
-	        person.displayInfo();
-	        sc.close();
-	    }
-	}
+}
 
 
