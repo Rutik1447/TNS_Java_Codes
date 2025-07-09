@@ -46,7 +46,7 @@ public class getConstructor {
 	     System.out.print("Enter Age: ");
 	     int age = sc.nextInt();
 	     Person person = new Person(id, name, age);
-	     System.out.println("User_Info");
+	     System.out.println("User Info");
 	     person.displayInfo();
 	     sc.close();
 	}
